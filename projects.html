@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects — Kian Khaksar</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <nav class="topnav">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-brand">Kian Khaksar</a>
+      <ul class="nav-links">
+        <li><a href="index.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="Honors and Awards.html">Awards &amp; Fellowships</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="community.html">Community</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="page-wrapper">
+
+    <aside class="sidebar">
+      <img src="images/profilePic.jpeg" alt="Kian Khaksar" class="profile-photo" />
+      <p class="sidebar-name">Kian Khaksar</p>
+      <p class="sidebar-title">Ph.D. Candidate @Concordia University</p>
+      <ul class="sidebar-links">
+        <li><i class="fas fa-map-marker-alt"></i> Montreal, QC</li>
+        <li>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:kian.khaksar@mail.concordia.ca">Email</a>
+        </li>
+        <li>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/kian-khaksar-a5377915a" target="_blank">LinkedIn</a>
+        </li>
+        <li>
+          <i class="fas fa-graduation-cap"></i>
+          <a href="https://scholar.google.com/citations?user=syTn1BMAAAAJ&hl=en" target="_blank">Google Scholar</a>
+        </li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <h2>Research Experience</h2>
+      <div class="exp-item">
+        <div class="exp-header">
+          <strong>Graduate Research Assistant</strong>
+          <span class="exp-date">Jan. 2023 – Present</span>
+        </div>
+        <p class="exp-org">
+          Energy and Environmental Geomechanics Group, Dr. Biao Li &nbsp;|&nbsp;
+          <em>Concordia University, Montreal, Canada</em>
+        </p>
+        <ul>
+          <li>Developed the group's first MOOSE-based application for coupled TH/THM freeze-thaw simulation.</li>
+          <li>Modeled standing column well geothermal systems at field scale and validated against thermal response test data from Varennes, QC.</li>
+          <li>Integrated ERT-derived subsurface resistivity data with borehole temperature observations to initialize heterogeneous frozen ground models.</li>
+          <li>Investigated talik formation susceptibility and thermal disturbance under heat-exchanger operations.</li>
+          <li>Developing physics-informed neural network frameworks for multiphysics freeze-thaw analysis.</li>
+        </ul>
+      </div>
+
+      <h2>Projects</h2>
+
+      <div class="project-grid">
+
+        <div class="project-card">
+          <h3>MOOSE-Based TH/THM Freeze-Thaw Simulator</h3>
+          <p>
+            Developed the group's first coupled thermal-hydraulic-mechanical (THM) application
+            using the MOOSE framework to simulate freeze-thaw processes in cold region soils,
+            including phase-change, frost heave, and pore pressure evolution.
+          </p>
+          <div class="project-tags">
+            <span class="tag">MOOSE</span>
+            <span class="tag">C++</span>
+            <span class="tag">FEM</span>
+            <span class="tag">THM</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Standing Column Well Geothermal Modeling</h3>
+          <p>
+            Modeled standing column well (SCW) geothermal systems at field scale and validated
+            simulations against thermal response test (TRT) data from Varennes, QC.
+            Investigated permafrost preservation and talik formation under heat-exchanger operations.
+          </p>
+          <div class="project-tags">
+            <span class="tag">Geothermal</span>
+            <span class="tag">Field Scale</span>
+            <span class="tag">Building Heating</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>ERT-Constrained Frozen Ground Models</h3>
+          <p>
+            Integrated electrical resistivity tomography (ERT) derived subsurface data with
+            borehole temperature observations to initialize spatially heterogeneous frozen
+            ground models for permafrost site characterization.
+          </p>
+          <div class="project-tags">
+            <span class="tag">ERT</span>
+            <span class="tag">Borehole Temperature</span>
+            <span class="tag">Heterogeneity</span>
+            <span class="tag">Permafrost</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <h3>Physics-Informed Neural Networks for Multiphysics Freeze-Thaw</h3>
+          <p>
+            Developing PINN frameworks to accelerate freeze-thaw multiphysics simulations,
+            embedding governing PDEs (heat conduction, Darcy flow, poromechanics) as
+            physics constraints in the neural network loss function.
+          </p>
+          <div class="project-tags">
+            <span class="tag">PINN</span>
+            <span class="tag">Python</span>
+            <span class="tag">Machine Learning</span>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+
+</body>
+</html>
